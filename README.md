@@ -8,6 +8,8 @@ We learned a lot building the app so we've put the code up here in the hopes it 
 
 ## Getting up and running
 
+There are a couple of things you'll need installed to begin:
+
 1. Node and NPM installed (a good guide is available [on Shape Shed](http://shapeshed.com/setting-up-nodejs-and-npm-on-mac-osx/))
 2. A PHP/MySQL server to run the API
 
@@ -47,7 +49,7 @@ Then added to the JSON file
 
 Firstly you'll need to set up a local testing domain (e.g. http://codeclub.dev) and point it to `/dev/api/`. We use [VirtualhostX](https://clickontyler.com/virtualhostx/) for this kind of thing and can heartily recommend it. 
 
-The MySQL database schema is in `schema.sql` in the project root. You should run this in your favourite MySQL GUI (we use [Sequel Pro](http://www.sequelpro.com/) and then update your database connection settings in:
+The MySQL database schema is in `schema.sql` in the project root. You should run this in your favourite MySQL GUI (we use [Sequel Pro](http://www.sequelpro.com/)) and then update your database connection settings in:
 
     /dev/api/application/config/database.php
 
