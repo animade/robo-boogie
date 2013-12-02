@@ -1,0 +1,26 @@
+
+<div class="playlist">
+
+    <div class="playlist--current track js-current-track is-active">
+        <div class="icon-volume-down track__icon"></div>
+        <span class="js-current-track-title">{{! Track loaded via JS }}</span>
+    </div>
+
+    <ul class="playlist--tracks js-playlist">
+    {{#each []}}
+        <li class="js-track playlist__track track" data-value="{{id}}">
+            <div class="icon-volume-down track__icon"></div>
+            {{title}}
+        </li>
+    {{/each}}
+    </ul>
+    <div class="clearfix"></div>
+</div>
+
+<!-- <div class="audio--dropdown--container">
+    <select class="js-audio-select audio--dropdown">
+    {{#each []}}
+        <option value="{{id}}">{{title}}</option>
+    {{/each}}
+    </select>
+</div> -->

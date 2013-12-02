@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2013 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="cancel" unicode="&#xe801;" d="m123 654l181-181l181 181l123-124l-182-178l183-184l-124-121l-181 182l-181-182l-123 122l183 183l-182 178z" horiz-adv-x="609" />
+<glyph glyph-name="volume-down" unicode="&#xe800;" d="m460 727l0-754l-234 234l-226 0l0 286l226 0z m133-602l-65 63c45 45 68 108 68 168c0 59-21 115-63 159l61 61c61-63 97-144 97-228c0-76-30-156-98-223z" horiz-adv-x="691" />
+</font>
+</defs>
+</svg>

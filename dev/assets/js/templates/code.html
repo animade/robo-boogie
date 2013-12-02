@@ -1,0 +1,23 @@
+<hgroup class="sidebar--header">
+	
+	<h2 class="sidebar--heading">Editing code</h2>
+
+	<a href="#" class="btn sidebar--btn js-input-toggle js-goto-sliders">&larr; Basic mode </a>
+
+</hgroup>
+
+<div class="clearfix"></div>
+
+<div class="js-code-editor code-editor" id="code-editor" data-move-id="{{moveId}}">{{{introComment}}}
+{{#variables move}}
+{{this}}
+{{/variables}}
+</div>
+
+<a href="#" class="js-code-save code-save btn--run-code">Run the code</a>
+
+<div class="clearfix"></div>
+
+<p class="code-message js-code-error is-ok"></p>
+
+		

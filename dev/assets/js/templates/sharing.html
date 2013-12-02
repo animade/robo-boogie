@@ -1,0 +1,20 @@
+<div class="stage__sharing sharing">
+
+    <p class="sharing--divider">&mdash; SHARE &mdash; </p>
+
+    <nav class="sharing__social-links social-links">
+        <a data-event-label="Facebook Share Score" class="social-links--link btn--facebook js-share" 
+        href="https://www.facebook.com/sharer/sharer.php?s=100
+        &p[url]={{ url }}
+        &p[images][0]={{image}}
+        &p[title]={{ title }}
+        &p[summary]={{description}}">
+            Facebook
+        </a>
+        <a data-event-label="Tweet Score" class="social-links--link btn--twitter js-tweet" href="http://twitter.com/intent/tweet?url={{ url }}&text={{ description }}">
+            Twitter
+         </a>
+    </nav>
+
+</div>
+{{! .sharing }}

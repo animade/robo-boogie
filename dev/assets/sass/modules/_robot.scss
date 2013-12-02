@@ -1,0 +1,91 @@
+// ==========================================================================
+//
+// Robot
+//
+//
+
+.robot {
+	position: absolute;
+	width:$robot-width;
+	height:$robot-height;
+	
+	canvas {
+		width:100%;
+		height:100%;
+		max-width:100%;
+		max-height:100%;
+	}
+}
+
+$shadow-width: 350px;
+$shadow-height: 35px;
+
+.robot--shadow {
+	position: absolute;
+	z-index: -2;
+	// bottom:63px;
+	left:50%;
+	margin-left: -($shadow-width/2);
+	width: $shadow-width;
+	height: $shadow-height;
+	background: desaturate(darken($background, 10%), 10%);
+	// box-shadow: inset 0 0 20px #fcfcfc;
+	border-radius: 350px / 35px;
+}
+
+.robot--edit {
+	@extend .robot;
+	position: fixed;
+	left:50%;
+	margin-left: -50px; // Difference between width and sidebar width
+	top:50%;
+	margin-top: -350px;
+}
+
+.robot--iframe {
+	@include transform(scale(0.5));
+	@extend .robot;
+	position: fixed;
+	left:-150px;
+	top:-175px;
+	cursor: pointer;
+}
+
+
+.robot--edit__robot--shadow {
+	bottom:60px;
+}
+
+// Hide the robot name 
+.robot--edit__robot-name--container {
+	display:none;
+}
+
+.robot--iframe__robot-name--container {
+	width:300px;
+	position: absolute;
+	top:250px;
+	left:0px;
+	font-size:0.8em;
+	.robot-name--words {
+		padding:5px 10px;
+	}
+}
+
+.robot--view {
+	@extend .robot;
+	top:50%;
+	left:50%;
+	margin-left: -($robot-width/2);
+	margin-top: -($robot-height/1.5);
+}
+
+.robot--placeholder {
+	position: absolute;
+	width:$robot-width;
+	height:$robot-height;
+	top:176px;
+	left:96px;
+	@include transform(scale(1.2));
+}
+

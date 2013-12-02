@@ -1,0 +1,68 @@
+    
+    <div class="page-heading swiper__page-heading">
+        <h1 class="page-heading--title">Choose a robot to make your dance!</h1>
+    </div>
+
+    <div class="swiper-container">
+
+        <div class="robot--shadow robot-slide__shadow"></div>
+
+        <div class="robot-name--container js-robot-name js-hide-on-slide ">
+                {{! Name module loaded into here }}
+        </div>
+
+        <div class="swiper-wrapper">
+
+            {{#each []}}
+
+                <div class="swiper-slide">
+
+                    <div class="robot-slide">
+                       
+                        <img class="robot-slide--image" src="{{preview_image}}" alt="{{robot_name}} preview image" />
+
+                        <div class="clearfix"></div>
+                            
+                        <div class="js-button-container">
+                            <a href="#" class="btn-primary js-choose-robot  js-hide-on-slide robot-slide--button"  data-robot-name="{{robot_name}}" data-guid="{{guid}}" data-robot-id="{{id}}" data-is-named="{{is_named}}">
+                                {{#if is_named}}
+                                    Edit saved dance &rarr;
+                                {{else}}
+                                    Let&rsquo;s dance!
+                                {{/if}}
+                            </a>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+
+            {{/each}}
+
+
+
+        </div>
+        {{! .slider-inner }}
+    </div>
+    {{! .robot-slider-container }}
+
+    <!-- introduction-stage -->
+    <div class="introduction-stage">
+        
+    </div>
+    <!-- .introduction-stage -->
+    
+
+    <div class="swiper__btn--next">
+        <a href="#" class="btn--next js-next js-swiper-action">
+            &rarr; 
+        </a>
+    </div>
+
+    <div class="swiper__btn--prev">
+        <a href="#" class="btn--prev js-prev js-swiper-action">
+            &larr;
+        </a>
+    </div>
+

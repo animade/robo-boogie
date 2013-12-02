@@ -1,0 +1,96 @@
+// ==========================================================================
+//
+// Credits
+//
+//
+
+.credits {
+    width:100%;
+    position: absolute;
+    
+    z-index: 10000000;
+    bottom:0;
+    left:0px;
+    // left:20px;
+    
+    
+}
+
+// Custom styles for the dance edit
+.dance__credits {
+
+    .credits--proper {
+
+        color:lighten($text, 40%);
+
+        a,
+        a:visited {
+            color:lighten($text, 20%);
+        }
+    }
+
+    .credits--trigger {
+        color:lighten($text, 20%);
+    }
+}
+
+%credit {
+    @include uppercase;
+    font-size:0.8em;
+    display: block;
+    padding:1em 0 1.5em;
+    margin:0;
+
+    color:darken($background, 20%);
+    
+    a,
+    a:visited {
+        color:darken($background, 25%);
+    }
+}
+
+.credits--trigger {
+    @extend %credit;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    bottom:0;
+    left:0;
+}
+
+.credits--proper {
+    @extend %credit;
+    opacity: 0;
+    margin-left: -1em;
+}
+
+.credits--wrapper {
+    @include span(6);
+    position: relative;
+    float: left;
+}
+
+.credits--donate {
+    @include span(6);
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+
+    .copy {
+        color:$text;
+        display: inline-block;
+    }
+}
+
+.donate-link {
+    color:$ui-primary;
+    border-bottom:1px solid $ui-primary;
+
+    &:visited {
+       color:$ui-primary;
+    }
+
+    &:hover {
+        border-bottom-color: transparent;
+    }
+}

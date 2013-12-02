@@ -1,0 +1,169 @@
+<hgroup class="sidebar--header">
+	
+	<h2 class="sidebar--heading">Edit Dance</h2>
+
+	<a href="#" class="btn sidebar--btn js-input-toggle js-goto-code">Code mode &rarr;</a>
+
+</hgroup>
+
+
+<div class="sliders--group--full">
+	
+	<h3 class="sliders--group--heading">Head</h3>
+	
+	<p class="sliders__range-field range-field">
+		<label class="range-field--label" for="speed">Up &amp; Down</label>
+
+		<span class="range-field--min">Less</span>
+		<span class="range-field--max">More</span>
+
+			<input class="range-field--input js-variable-update"  data-attribute="neck_upDown" type="range" min="{{sliderDefault.neck.min}}" max="{{sliderDefault.neck.max}}" value="{{danceMove.neck_upDown}}" step="{{sliderDefault.neck.step}}" />
+	</p>
+
+	<p class="sliders__range-field range-field">
+		<label class="range-field--label" for="speed">Left &amp; Right</label>
+
+		<span class="range-field--min">Less</span>
+		<span class="range-field--max">More</span>
+
+			<input class="range-field--input js-variable-update"  data-attribute="neck_leftRight" type="range" min="{{sliderDefault.neck.min}}" max="{{sliderDefault.neck.max}}" value="{{danceMove.neck_leftRight}}"  step="{{sliderDefault.neck.step}}" />
+		</p>
+
+</div>
+{{! .sliders--group }}
+
+<div class="sliders--group--left">
+	
+	<h3 class="sliders--group--heading">Left Upper Arm</h3>
+	
+	<p class="sliders__range-field range-field">
+
+		<label class="range-field--label" for="speed">Movement</label>
+
+		<span class="range-field--min">{{sliderDefault.arms.min}}&deg;</span>
+		<span class="range-field--max">{{sliderDefault.arms.max}}&deg;</span>
+
+			<input class="range-field--input js-variable-update"  data-attribute="leftUpperArm_amount" type="range" min="{{sliderDefault.arms.min}}" max="{{sliderDefault.arms.max}}" step="{{sliderDefault.arms.step}}" value="{{danceMove.leftUpperArm_amount}}" />
+
+	</p>
+
+	<p class="sliders__range-field range-field">
+		<label class="range-field--label" for="speed">Starting Angle</label>
+
+		<span class="range-field--min">{{sliderDefault.arms.min}}&deg;</span>
+		<span class="range-field--max">{{sliderDefault.arms.max}}&deg;</span>
+
+			<input class="range-field--input js-variable-update"  data-attribute="leftUpperArm_angle" type="range" min="{{sliderDefault.arms.min}}" max="{{sliderDefault.arms.max}}" step="{{sliderDefault.arms.step}}" value="{{danceMove.leftUpperArm_angle}}" />
+		</p>
+
+</div>
+{{! .sliders--group }}
+
+<div class="sliders--group--right">
+	
+	<h3 class="sliders--group--heading">Right Upper Arm</h3>
+	
+	<p class="sliders__range-field range-field">
+		<label class="range-field--label" for="speed">Movement</label>
+
+		<span class="range-field--min">{{sliderDefault.arms.min}}&deg;</span>
+		<span class="range-field--max">{{sliderDefault.arms.max}}&deg;</span>
+
+			<input class="range-field--input js-variable-update"  data-attribute="rightUpperArm_amount" type="range" min="{{sliderDefault.arms.min}}" max="{{sliderDefault.arms.max}}" step="{{sliderDefault.arms.step}}" value="{{danceMove.rightUpperArm_amount}}" />
+	</p>
+
+	<p class="sliders__range-field range-field">
+		<label class="range-field--label" for="speed">Starting Angle</label>
+
+		<span class="range-field--min">{{sliderDefault.arms.min}}&deg;</span>
+		<span class="range-field--max">{{sliderDefault.arms.max}}&deg;</span>
+
+			<input class="range-field--input js-variable-update"  data-attribute="rightUpperArm_angle" type="range" min="{{sliderDefault.arms.min}}" max="{{sliderDefault.arms.max}}" step="{{sliderDefault.arms.step}}" value="{{danceMove.rightUpperArm_angle}}" />
+		</p>
+
+</div>
+{{! .sliders--group }}
+
+<div class="sliders--group--left">
+	
+	<h3 class="sliders--group--heading">Left forearm</h3>
+	
+	<p class="sliders__range-field range-field">
+		<label class="range-field--label" for="speed">Movement</label>
+
+		<span class="range-field--min">{{sliderDefault.arms.min}}&deg;</span>
+		<span class="range-field--max">{{sliderDefault.arms.max}}&deg;</span>
+
+			<input class="range-field--input js-variable-update"  data-attribute="leftForearm_amount" type="range" min="{{sliderDefault.arms.min}}" max="{{sliderDefault.arms.max}}" step="{{sliderDefault.arms.step}}" value="{{danceMove.leftForearm_amount}}" />
+	</p>
+
+	<p class="sliders__range-field range-field">
+		<label class="range-field--label" for="speed">Starting Angle</label>
+
+		<span class="range-field--min">{{sliderDefault.arms.min}}&deg;</span>
+		<span class="range-field--max">{{sliderDefault.arms.max}}&deg;</span>
+
+			<input class="range-field--input js-variable-update"  data-attribute="leftForearm_angle" type="range" min="{{sliderDefault.arms.min}}" max="{{sliderDefault.arms.max}}" step="{{sliderDefault.arms.step}}" value="{{danceMove.leftForearm_angle}}" />
+		</p>
+
+</div>
+{{! .sliders--group }}
+
+
+
+
+<div class="sliders--group--right">
+	
+	<h3 class="sliders--group--heading">Right forearm</h3>
+	
+	<p class="sliders__range-field range-field">
+		<label class="range-field--label" for="speed">Movement</label>
+
+		<span class="range-field--min">{{sliderDefault.arms.min}}&deg;</span>
+		<span class="range-field--max">{{sliderDefault.arms.max}}&deg;</span>
+
+			<input class="range-field--input js-variable-update"  data-attribute="rightForearm_amount" type="range" min="{{sliderDefault.arms.min}}" max="{{sliderDefault.arms.max}}" step="{{sliderDefault.arms.step}}" value="{{danceMove.rightForearm_amount}}" />
+	</p>
+
+	<p class="sliders__range-field range-field">
+		<label class="range-field--label" for="speed">Starting Angle</label>
+
+		<span class="range-field--min">{{sliderDefault.arms.min}}&deg;</span>
+		<span class="range-field--max">{{sliderDefault.arms.max}}&deg;</span>
+
+			<input class="range-field--input js-variable-update"  data-attribute="rightForearm_angle" type="range" min="{{sliderDefault.arms.min}}" max="{{sliderDefault.arms.max}}" step="{{sliderDefault.arms.step}}" value="{{danceMove.rightForearm_angle}}" />
+		</p>
+
+</div>
+{{! .sliders--group }}
+
+
+<div class="clearfix"></div>
+
+<div class="sliders--group--full">
+	
+	<h3 class="sliders--group--heading">Hips</h3>
+	
+	<p class="sliders__range-field range-field">
+		<label class="range-field--label" for="speed">Up &amp; Down</label>
+
+		<span class="range-field--min">Less</span>
+		<span class="range-field--max">More</span>
+
+			<input class="range-field--input js-variable-update"  data-attribute="hips_upDown" type="range" min="{{sliderDefault.hips.min}}" max="{{sliderDefault.hips.max}}" step="{{sliderDefault.hips.step}}" value="{{danceMove.hips_upDown}}" />
+	</p>
+
+	<p class="sliders__range-field range-field">
+		<label class="range-field--label" for="speed">Left &amp; Right</label>
+
+		<span class="range-field--min">Less</span>
+		<span class="range-field--max">More</span>
+
+			<input class="range-field--input js-variable-update"  data-attribute="hips_leftRight" type="range" min="{{sliderDefault.hips.min}}" max="{{sliderDefault.hips.max}}" step="{{sliderDefault.hips.step}}" value="{{danceMove.hips_leftRight}}" />
+		</p>
+
+</div>
+{{! .sliders--group }}
+
+
+

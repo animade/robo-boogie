@@ -1,0 +1,15 @@
+// ==========================================================================
+//
+// Soundtrack
+//
+//
+
+.soundtrack {
+	@include span(4);
+	float: left;
+	margin:2em 0 0;
+
+	.soundtrack--dropdown {
+		width:100%;
+	}
+}

@@ -1,0 +1,53 @@
+* { 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+}
+
+body {
+    font-family: "ff-netto-web", sans-serif;
+    background:$background;
+    font-size:14px;
+    line-height: 18px;
+    text-align: left;
+    color:$text;
+}
+
+.clearfix {
+    @include clearfix;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size:1em;
+    font-weight: normal;
+    margin:0;
+    padding:0;
+
+    a,
+    a:visited {
+        color:#fff;
+    }
+}
+
+p, ul {
+    margin:0;
+    padding:0;
+}
+
+a, 
+a:visited {
+    color:$text;
+    text-decoration: none;
+}
+
+#container {
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+
+.container {
+    position:relative;
+    margin:0 auto;
+    padding:0 2em;
+    width:100%;
+}

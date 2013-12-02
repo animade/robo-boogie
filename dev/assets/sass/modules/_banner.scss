@@ -1,0 +1,43 @@
+// ==========================================================================
+//
+// Banner
+//
+//
+
+
+@mixin banner($banner-width, $banner-height) {
+    position: absolute;
+    width:$banner-width;
+    height: $banner-height;
+    margin-left: -($banner-width/2);
+    margin-top: -($banner-width/2);
+    top: 50%;
+    left:50%;
+    text-align: center;
+    // 
+}
+
+.banner--image {
+    width:302px;
+}
+
+.banner--heading {
+    @include uppercase;
+    margin:2em 0 1em;
+    a,
+    a:visited {
+        border-bottom:1px solid $text;
+    }
+
+    a:hover {
+        border-bottom-color: transparent;
+    }
+}
+
+.mobile--banner {
+    @include banner(302px, 100px);
+}
+
+.oldie--banner {
+    @include banner(302px, 100px);
+}

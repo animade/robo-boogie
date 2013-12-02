@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Electro",
+        "bpm": 0.0129,
+        "mp3": "/assets/music/loops/electro.mp3",
+        "ogg": "/assets/music/loops/electro.ogg",
+        "wav": "/assets/music/loops/electro.wav"
+    },
+    {
+        "id": 2,
+        "title": "Funk",
+        "bpm": 0.0134,
+        "mp3": "/assets/music/loops/funk.mp3",
+        "ogg": "/assets/music/loops/funk.ogg",
+        "wav": "/assets/music/loops/funk.wav"
+    },
+    {
+        "id": 3,
+        "title": "Pop",
+        "bpm": 0.0126,
+        "mp3": "/assets/music/loops/pop.mp3",
+        "ogg": "/assets/music/loops/pop.ogg",
+        "wav": "/assets/music/loops/pop.wav"
+    },
+    {
+        "id": 4,
+        "title": "Rock",
+        "bpm": 0.01113,
+        "mp3": "/assets/music/loops/rock.mp3",
+        "ogg": "/assets/music/loops/rock.ogg",
+        "wav": "/assets/music/loops/rock.wav"
+    }
+]

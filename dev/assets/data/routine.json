@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "masterTempo": 0.01,
+        "neck_tempoMultiplier": 1,
+        "neck_upDown" : 20,
+        "neck_leftRight": 0,
+        "rightForearm_reverse": true,
+        "rightForearm_tempoMultiplier" : 1,
+        "rightForearm_amount" : 30,
+        "rightForearm_angle" : 30,
+        "rightUpperArm_reverse": true,
+        "rightUpperArm_tempoMultiplier" : 1,
+        "rightUpperArm_amount": 50,
+        "rightUpperArm_angle" : 50,
+        "leftForearm_reverse" : false,
+        "leftForearm_tempoMultiplier" : 0.25,
+        "leftForearm_amount": 50,
+        "leftForearm_angle" : 50,
+        "leftUpperArm_reverse": false,
+        "leftUpperArm_tempoMultiplier" : 1,
+        "leftUpperArm_amount" : 90,
+        "leftUpperArm_angle" : 45,
+        "hips_tempoMultiplier": 1,
+        "hips_upDown" : 0,
+        "hips_leftRight": 0
+    }
+]  

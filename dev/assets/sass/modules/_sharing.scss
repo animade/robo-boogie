@@ -1,0 +1,22 @@
+// ==========================================================================
+//
+// Sharing links etc...
+//
+//
+
+.sharing {
+	// background:#09f;
+}
+
+.sharing--url {
+    display: none;
+}
+
+.social-links--link {
+    // margin:0 0.5em;
+}
+
+.sharing--divider {
+    @include uppercase;
+    margin:1em 0;
+}

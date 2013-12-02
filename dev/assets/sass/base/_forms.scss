@@ -1,0 +1,26 @@
+// ==========================================================================
+//
+// Forms
+//
+//
+
+input {
+    font-family: "ff-netto-web", sans-serif; 
+}
+
+textarea {
+    font-family: "ff-netto-web", sans-serif;
+}
+
+select {
+    font-family: "ff-netto-web", sans-serif;
+	-webkit-appearance: none;
+   	-moz-appearance:    none;
+   	appearance:         none;
+   	border-radius:0px;
+	background:#fff;
+	border:1px solid #ddd;
+	padding:0.5em;
+	color:$text;
+}
+

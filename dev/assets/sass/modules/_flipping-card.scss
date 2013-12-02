@@ -1,0 +1,55 @@
+// ==========================================================================
+//
+// Card flipper
+// 
+// Based on http://davidwalsh.name/css-flip
+//
+
+$editor-width: 500px;
+$editor-height: 700px;
+
+.flipper {
+    
+    @include prefixer(perspective, 1000, webkit ms moz spec);
+
+    &.is-coding {
+        .flipper-inner {
+            @include transform(rotateY(180deg));
+        }
+    }
+}
+
+// Sets the width/height for code and sliders
+.flipper,
+.flipper--front, 
+.flipper--back {
+    width: $editor-width;
+    height: $editor-height;
+}
+
+// Flip speed
+.flipper-inner {
+    @include prefixer(transition, 0.6s, webkit ms moz spec);
+    @include prefixer(transform-style, preserve-3d, webkit ms moz spec);
+    position: relative;
+}
+
+// hide back of pane during swap 
+.flipper--front, 
+.flipper--back {
+    @include prefixer(backface-visibility, hidden, webkit ms moz spec);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#eee;
+}
+
+// Show the sliders
+.flipper--front {
+    z-index: 2;
+}
+
+// Hide the code
+.flipper--back {
+    @include transform(rotateY(180deg));
+}

@@ -1,0 +1,32 @@
+// ==========================================================================
+//
+// Sprites
+//
+//
+
+%sprite {
+    display: inline-block;
+    vertical-align: middle;
+    background-image:url('/assets/img/sprites@2x.png');
+    background-size: 567px;
+}
+
+
+// Code Club Icon 
+
+.sprite--cc-icon {
+    @extend %sprite;
+    background-position: -6px -6px;
+    width: 52px;
+    height: 52px;
+}
+
+
+// Robo boogie logo
+
+.sprite--robo-boogie-logo {
+    @extend %sprite;
+    background-position: -66px -15px;
+    width: 302px;
+    height: 32px;
+}

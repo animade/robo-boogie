@@ -1,0 +1,49 @@
+// ==========================================================================
+//
+// Loading
+//
+//
+
+$loading-height: 100px;
+$loading-width: 300px;
+
+.loading {
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:$loading-width;
+    height:$loading-height;
+    margin-left: -($loading-width/2);
+    margin-top: -($loading-height/2);
+    text-align: center;
+}
+
+.loading--logo {
+    width:100%;
+}
+
+.loading--title {
+    @include uppercase;
+    margin:1em 0 0.5em;
+    padding:0;
+}
+
+.loading--percentage {
+    @include uppercase;
+}
+
+
+.loading--robot {
+    @extend .loading;
+    @include uppercase;
+}
+
+.loading--robot--edit {
+    @extend .loading--robot;
+    margin-left: -($loading-width/2) + 230px;
+}
+
+.loading--robot--iframe {
+    @extend .loading--robot;
+    margin-top: -10px;
+}

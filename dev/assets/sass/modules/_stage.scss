@@ -1,0 +1,29 @@
+// ==========================================================================
+//
+// Stage for watching a robots dance
+//
+//
+
+.stage {
+	position: absolute;
+	top:50%;
+    width:100%;
+    margin-top: 223px;
+	text-align: center;
+}
+
+.stage__robot-name--container {
+    position: absolute;
+    width:$robot-name-max-width;
+    left:50%;
+    margin-left: -($robot-name-max-width/2);
+    top:50%;
+    margin-top: 155px;
+}
+
+.stage__sharing {
+    position: absolute;
+    bottom:-103px;
+    width:100%;
+}
+	

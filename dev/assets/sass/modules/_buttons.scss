@@ -1,0 +1,122 @@
+// ==========================================================================
+//
+// Buttons
+//
+//
+
+@mixin button($color:$ui-primary) {
+    display: inline-block;
+    background:$color;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color:#fff;
+    padding:0.6em 2em 0.75em;
+    font-size:1.2em;
+    border-radius:0px;
+    border-radius: 60px;
+    box-shadow: 0 4px 0px darken($color, 15%);
+
+    &:visited {
+        color:#fff;
+    }
+
+    &:hover {
+        margin-top: -2px;
+        box-shadow: 0 6px 0px darken($color, 15%);
+    }
+
+    &:active {
+        background:darken($color, 5%);
+        margin-top: -2px;
+        box-shadow: 0 6px 0px darken($color, 15%);
+    }
+}
+
+@mixin small-button($color:$ui-primary) {
+    @include button($color);
+    margin:0 0.5em;
+    font-size:1em;
+    box-shadow: 0 2px 0px darken($color, 15%);
+
+    &:hover {
+        margin-top: -1px;
+        box-shadow: 0 3px 0px darken($color, 15%);
+    }
+
+    &:active {
+        background:darken($color, 5%);
+        margin-top: -1px;
+        box-shadow: 0 3px 0px darken($color, 15%);
+    }
+}
+
+
+
+
+.btn {
+    @include button();
+    
+    &.is-disabled {
+        background:#bbb;
+        color:#ddd;
+    }
+
+    &.is-entered {
+        opacity: 0.5;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        filter: alpha(opacity=50);
+    }
+}
+
+.btn-primary {
+    @include button();
+    font-size: 1.2em;
+}
+
+.btn-secondary {
+    @extend .btn;
+}
+
+.btn--run-code {
+    @include button($ui-secondary);
+    width:100%;
+}
+
+.btn--donate {
+    @include button(#71a57e);
+}
+
+
+.btn--next,
+.btn--prev {
+    @include button($ui-primary);
+    width:40px;
+    height:40px;
+    padding:10px 0 0 0;
+    box-shadow: 0 2px 0px darken($ui-primary, 15%);
+
+    &:hover {
+        margin-top: -1px;
+        box-shadow: 0 3px 0px darken($ui-primary, 15%);
+    }
+
+    &:active {
+        background:darken($ui-primary, 5%);
+        margin-top: -1px;
+        box-shadow: 0 3px 0px darken($ui-primary, 15%);
+    }
+}
+
+// Facebook Share
+
+.btn--facebook {
+    @include small-button($facebook);
+}
+
+
+// Twitter share 
+
+.btn--twitter {
+    @include small-button($twitter);
+}

@@ -1,0 +1,112 @@
+// ==========================================================================
+//
+// Robot names
+//
+//
+
+$robot-bar-height:30px;
+
+%robot-name {
+    font-size:0.8em;
+}
+
+.robot-name--nameplate {
+    @extend %robot-name;
+    position: absolute;
+    top:0px;
+    width:$robot-width;
+    text-align: center;
+}
+
+.robot-name--container {
+    text-align: center;
+    z-index: 1;
+}
+
+.robot-name--selector {
+    @extend %robot-name;
+    display:inline-block;
+    text-align: center;
+    
+    padding:6px 6px 8px;
+}
+
+.robot-name--your-robot {
+    display:none;
+    @include uppercase;
+    margin:0;
+    padding-top: 5px;
+    background:$robot-name-color;
+    color:#fff;
+    height:$robot-bar-height;
+}
+
+.robot-name--words {
+    background: #fff;
+    padding:8px 20px 11px;
+}
+
+%name  {
+    color:$text;
+    font-size:1.5em;
+    letter-spacing: 0.1em;
+    margin:0 0.3em;
+}
+
+.name--prefix {
+    @extend %name;
+}
+
+.name--firstname {
+    @extend %name;
+}
+
+.name--surname {
+    @extend %name;
+}
+
+%letter  {
+    // @extend %name;
+    display:inline-block;
+    // @include uppercase;
+    // background: darken($background, 5%);
+    font-size:1.5em;
+    // margin:0 2px;
+    padding:0.15em 0.07em;
+}
+
+.l {
+    @extend %letter;
+}
+
+.l-spacer {
+    @extend %letter;
+}
+
+
+// ==========================================================================
+//
+// Iframe click prompt
+//
+//
+
+%iframe-name {
+
+}
+
+.robot-name__iframe {
+    // position: absolute;
+}
+
+.iframe-click-prompt {
+    @include uppercase;
+    font-size:1.2em;
+    @extend .robot-name--words;
+    border-radius:2px;
+    position: absolute;
+    top: 5px;
+    width: 220px;
+    left: 45px;
+    background: $ui-primary;
+    color:#fff;
+}

@@ -1,0 +1,82 @@
+// ==========================================================================
+//
+// Sidebar - sliding 100% height sidebar
+//
+//
+
+// Vars
+
+$sidebar-width:440px;
+$sidebar-buffer:100px;
+$sidebar-padding:20px;
+$sidebar-min-height:700px;
+
+// Parent constructors
+
+%sidebar {
+    @include transition(margin 0.6s $ease-in-out-back);
+    position: absolute;
+    top:0px;
+    left:0px;
+    min-height: $sidebar-min-height; 
+    z-index: 0;
+    padding: 75px $sidebar-padding $sidebar-padding ($sidebar-buffer + $sidebar-padding);
+    bottom:0px;
+    width:$sidebar-width + $sidebar-buffer;
+    background:$background-sidebar;
+    margin-left: -($sidebar-width + $sidebar-buffer);
+
+    &.is-active {
+        margin-left: -$sidebar-buffer;
+    }
+
+    &.is-hidden {
+        display: none;
+    }
+}
+
+.sidebar__code {
+    @extend %sidebar;
+}
+
+.sidebar__sliders {
+    @extend %sidebar;
+}
+
+.sidebar__audio-player {
+    // @extend %sidebar;
+    // height:$playlist-height;
+    // min-height: $playlist-height;
+    // position: absolute;
+    // bottom:0px;
+    // top:auto;
+    // z-index: 1;
+    // padding:0;
+}
+
+// Module elements
+
+.sidebar--heading {
+    float: left;
+    font-size:2em;
+    padding:0.5em 0 0;
+    margin:0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.soundtrack--heading {
+    @extend .sidebar--heading;
+    font-size:1.5em;
+    padding-top: 17px;
+}
+
+.sidebar--header {
+    height:62px;
+    @include clearfix;
+}
+
+.sidebar--btn {
+    @include clearfix;
+    float: right;
+}

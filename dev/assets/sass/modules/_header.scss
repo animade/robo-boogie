@@ -1,0 +1,51 @@
+// ==========================================================================
+//
+// Global header
+//
+//
+
+.header {
+	position: relative;
+	background:$header;
+	height:$header-height;
+	padding:0;
+	z-index: 100;
+
+	.header__robo-boogie-logo {
+		position: absolute;
+		padding:0;
+		left:100px;
+		margin-top: 13px;
+		line-height: 1em;
+	}
+
+	.header__cc-icon {
+		margin-top: 4px;
+	}
+}
+
+.site-navigation {
+	@include span(8);
+	float: right;
+	text-align: right;
+	margin-top: 1.4em;
+}
+
+.site-navigation--link {
+	@include uppercase;
+	margin:0 0.5em;
+	color:$text;
+
+	&:visited {
+		color:$text;
+	}
+	
+	&.is-active {
+		color:$light;
+		// border-bottom:1px solid $text;
+	}
+
+	&:hover {
+		color:$ui-primary;
+	}
+}

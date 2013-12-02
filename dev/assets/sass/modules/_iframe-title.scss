@@ -1,0 +1,19 @@
+// ==========================================================================
+//
+// Iframe title
+//
+//
+
+
+.iframe-title {
+    position: absolute;
+    text-align: center;
+    left:50%;
+    width:$robot-width;
+    margin-left: -($robot-width/2);
+    top:50%;
+    margin-top: -320px;
+}
+
+.iframe-title--heading {
+}

@@ -1,0 +1,81 @@
+// ==========================================================================
+//
+// Audio Player
+//
+//
+
+.audio-player {
+    &.is-hidden {
+        display: none;
+    }
+}
+
+.playlist {
+
+    position: absolute;
+    top:80px;
+    right:2em;
+    width:220px;
+    border:2px solid darken($text, 0%);
+
+    .playlist--tracks {
+        float:left;
+        width:100%;
+        display:none;
+        margin:0;
+        padding:0;
+        list-style:none;
+    }
+
+    .playlist--current {
+        float:left;
+        top:0px;
+        left:0px;
+        width:100%;
+    }
+
+}
+
+.track {
+    @include uppercase;
+    cursor: pointer;
+    color:$text;
+    display: block;
+    padding:3px 5px 4px 27px;
+    background:darken($background, 2%);
+
+    &:nth-child(odd) {
+        background:darken($background, 0%);
+    }
+
+    &:hover {
+        color:#fff;
+        background: $text;
+
+        .track__icon {
+            color:#fff;
+        }
+    }
+
+    .track__icon {
+        display: none;
+    }
+
+    &.is-active {
+        padding-left: 5px;
+        .track__icon {
+            display: inline-block;
+        }
+    }
+}
+
+.track__icon {
+    float: left;
+    margin-top: 3px;
+    margin-right: 2px;
+    color:$text;
+}
+
+.playlist__track {
+
+}

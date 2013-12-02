@@ -1,0 +1,990 @@
+[
+    {
+        "id": 1,
+        "preview_image": "/assets/img/robots/tv/preview@1x.png",
+        "stance": {
+        	"width": 120,
+        	"height": 110
+        },
+        "hips": {
+            "x": 300,
+            "y": 400,
+            "xOffset": 30,
+            "yOffset": 25
+        },
+	    "head": {
+            "image": "/assets/img/robots/tv/head.png",
+            "pattern": null,
+	      	"diameter": 50,
+            "width": 110,
+            "height": 101,
+            "topPin": -10, 
+            "bottomPin": 0,
+            "yOffset": -10
+	    },
+	    "neck": {
+            "image": "/assets/img/robots/tv/neck.png",
+            "pattern": null,
+	      	"length": 62,
+            "width": 21,
+            "xOffset": 0,
+            "yOffset": 0,
+            "topPin": 10, 
+            "bottomPin": 30
+	    },
+        "shoulders": {
+            "xOffset": 5,
+            "yOffset": 15,
+            "width": 120
+        },
+        "arms": {
+            "upperLength": 50,
+            "lowerLength": 50,
+            "leftUpperArm": {
+                "image": "/assets/img/robots/tv/upper-arm.png",
+                "pattern": null,
+                "length": 113,
+                "width": 34,
+                "topPin": 20, 
+                "bottomPin": 10
+            },
+            "leftForearm": {
+                "image": "/assets/img/robots/tv/lower-arm.png",
+                "pattern": null,
+                "length": 129,
+                "width": 32,
+                "topPin": 10, 
+                "bottomPin": 10
+            },
+            "rightUpperArm": {
+                "image": "/assets/img/robots/tv/upper-arm.png",
+                "pattern": null,
+                "length": 113,
+                "width": 34,
+                "topPin": 20, 
+                "bottomPin": 10
+            },
+            "rightForearm": {
+                "image": "/assets/img/robots/tv/lower-arm.png",
+                "pattern": null,
+                "length": 129,
+                "width": 32,
+                "topPin": 10, 
+                "bottomPin": 10
+            }
+        },
+	    "spine": {
+            "image": "/assets/img/robots/tv/body.png",
+            "pattern": null,
+	      	"length": 137,
+            "width": 102,
+            "topPin": 0, 
+            "bottomPin": 0
+	    },
+	    "legs": {
+            "left": {
+                "upperLeg": {
+                    "image": "/assets/img/robots/tv/upper-leg.png",
+                    "pattern": null,
+                    "length": 74,
+                    "width": 25,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                },
+                "lowerLeg": {
+                    "image": "/assets/img/robots/tv/lower-leg.png",
+                    "pattern": null,
+                    "length": 108,
+                    "width": 24,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                }
+            },
+            "right": {
+                "upperLeg": {
+                    "image": "/assets/img/robots/tv/upper-leg.png",
+                    "pattern": null,
+                    "length": 74,
+                    "width": 25,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                },
+                "lowerLeg": {
+                    "image": "/assets/img/robots/tv/lower-leg.png",
+                    "pattern": null,
+                    "length": 108,
+                    "width": 24,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                }
+            }
+	    },
+        "feet": {
+            "left": {
+                "image": "/assets/img/robots/tv/left-foot.png",
+                "pattern": null,
+                "length": 38,
+                "width": 17,
+                "topPin": 0, 
+                "bottomPin": 0,
+                "offset": -28
+            },
+            "right": {
+                "image": "/assets/img/robots/tv/right-foot.png",
+                "pattern": null,
+                "length": 38,
+                "width": 17,
+                "topPin": 0, 
+                "bottomPin": 0,
+                "offset": -10
+            }
+        }
+    },
+    {
+        "id": 2,
+        "preview_image": "/assets/img/robots/jester/preview@1x.png",
+        "stance": {
+            "width": 110,
+            "height": 85
+        },
+        "hips": {
+            "x": 300,
+            "y": 420,
+            "xOffset": 20,
+            "yOffset":23
+        },
+        "head": {
+            "image": "/assets/img/robots/jester/head.png",
+            "pattern": null,
+            "diameter": 50,
+            "width": 89,
+            "height": 76,
+            "topPin": -10, 
+            "bottomPin": 0,
+            "yOffset": -10
+        },
+        "neck": {
+            "image": "/assets/img/robots/jester/neck.png",
+            "pattern": null,
+            "length": 51,
+            "width": 26,
+            "xOffset": 0,
+            "yOffset": 0,
+            "topPin": 10, 
+            "bottomPin": 30
+        },
+        "shoulders": {
+            "xOffset": 5,
+            "yOffset": 15,
+            "width": 77
+        },
+        "arms": {
+            "upperLength": 50,
+            "lowerLength": 50,
+            "leftUpperArm": {
+                "image": "/assets/img/robots/jester/upper-arm.png",
+                "pattern": null,
+                "length": 98,
+                "width": 36,
+                "topPin": 20, 
+                "bottomPin": 10
+            },
+            "leftForearm": {
+                "image": "/assets/img/robots/jester/lower-arm.png",
+                "pattern": null,
+                "length": 110,
+                "width": 51,
+                "topPin": 10, 
+                "bottomPin": 10
+            },
+            "rightUpperArm": {
+                "image": "/assets/img/robots/jester/upper-arm.png",
+                "pattern": null,
+                "length": 98,
+                "width": 36,
+                "topPin": 20, 
+                "bottomPin": 10
+            },
+            "rightForearm": {
+                "image": "/assets/img/robots/jester/lower-arm.png",
+                "pattern": null,
+                "length": 110,
+                "width": 51,
+                "topPin": 10, 
+                "bottomPin": 10
+            }
+        },
+        "spine": {
+            "image": "/assets/img/robots/jester/body.png",
+            "pattern": null,
+            "length": 145,
+            "width": 76,
+            "topPin": 10, 
+            "bottomPin": 10
+        },
+        "legs": {
+            "left": {
+                "upperLeg": {
+                    "image": "/assets/img/robots/jester/upper-leg.png",
+                    "pattern": null,
+                    "length": 68,
+                    "width": 27,
+                    "topPin": 7, 
+                    "bottomPin": 10
+                },
+                "lowerLeg": {
+                    "image": "/assets/img/robots/jester/lower-leg.png",
+                    "pattern": null,
+                    "length": 85,
+                    "width": 36,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                }
+            },
+            "right": {
+                "upperLeg": {
+                    "image": "/assets/img/robots/jester/upper-leg.png",
+                    "pattern": null,
+                    "length": 68,
+                    "width": 27,
+                    "topPin": 7, 
+                    "bottomPin": 10
+                },
+                "lowerLeg": {
+                    "image": "/assets/img/robots/jester/lower-leg.png",
+                    "pattern": null,
+                    "length": 85,
+                    "width": 36,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                }
+            }
+        },
+        "feet": {
+            "left": {
+                "image": "/assets/img/robots/jester/left-foot.png",
+                "pattern": null,
+                "length": 46,
+                "width": 28,
+                "topPin": 0, 
+                "bottomPin": 0,
+                "offset": -32
+            },
+            "right": {
+                "image": "/assets/img/robots/jester/right-foot.png",
+                "pattern": null,
+                "length": 46,
+                "width": 28,
+                "topPin": 0, 
+                "bottomPin": 0,
+                "offset": -15
+            }
+        }
+    },
+    {
+        "id": 3,
+        "preview_image": "/assets/img/robots/cat/preview@1x.png",
+        "stance": {
+            "width": 120,
+            "height": 110
+        },
+        "hips": {
+            "x": 300,
+            "y": 400,
+            "xOffset": 55,
+            "yOffset": 23
+        },
+        "head": {
+            "image": "/assets/img/robots/cat/head.png",
+            "pattern": null,
+            "diameter": 50,
+            "width": 64,
+            "height": 77,
+            "topPin": -10, 
+            "bottomPin": 0,
+            "yOffset": -10
+        },
+        "neck": {
+            "image": "/assets/img/robots/cat/neck.png",
+            "pattern": null,
+            "length": 38,
+            "width": 19,
+            "xOffset": 0,
+            "yOffset": 0,
+            "topPin": 10, 
+            "bottomPin": 30
+        },
+        "shoulders": {
+            "xOffset": 25,
+            "yOffset": 5,
+            "width": 128
+        },
+        "arms": {
+            "upperLength": 50,
+            "lowerLength": 50,
+            "leftUpperArm": {
+                "image": "/assets/img/robots/cat/upper-arm.png",
+                "pattern": null,
+                "length": 84,
+                "width": 20,
+                "topPin": 10, 
+                "bottomPin": 10
+            },
+            "leftForearm": {
+                "image": "/assets/img/robots/cat/lower-arm.png",
+                "pattern": null,
+                "length": 118,
+                "width": 46,
+                "topPin": 10, 
+                "bottomPin": 10
+            },
+            "rightUpperArm": {
+                "image": "/assets/img/robots/cat/upper-arm.png",
+                "pattern": null,
+                "length": 84,
+                "width": 20,
+                "topPin": 10, 
+                "bottomPin": 10
+            },
+            "rightForearm": {
+                "image": "/assets/img/robots/cat/lower-arm.png",
+                "pattern": null,
+                "length": 118,
+                "width": 46,
+                "topPin": 10, 
+                "bottomPin": 10
+            }
+        },
+        "spine": {
+            "image": "/assets/img/robots/cat/body.png",
+            "pattern": null,
+            "length": 128,
+            "width": 87,
+            "topPin": 0, 
+            "bottomPin": 0
+        },
+        "legs": {
+            "left": {
+                "upperLeg": {
+                    "image": "/assets/img/robots/cat/upper-leg.png",
+                    "pattern": null,
+                    "length": 94,
+                    "width": 4,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                },
+                "lowerLeg": {
+                    "image": "/assets/img/robots/cat/lower-leg.png",
+                    "pattern": null,
+                    "length": 67,
+                    "width": 36,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                }
+            },
+            "right": {
+                "upperLeg": {
+                    "image": "/assets/img/robots/cat/upper-leg.png",
+                    "pattern": null,
+                    "length": 94,
+                    "width": 4,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                },
+                "lowerLeg": {
+                    "image": "/assets/img/robots/cat/lower-leg.png",
+                    "pattern": null,
+                    "length": 67,
+                    "width": 36,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                }
+            }
+        },
+        "feet": {
+            "left": {
+                "image": "/assets/img/robots/cat/left-foot.png",
+                "pattern": null,
+                "length": 48,
+                "width": 26,
+                "topPin": 0, 
+                "bottomPin": 0,
+                "offset": -35
+            },
+            "right": {
+                "image": "/assets/img/robots/cat/right-foot.png",
+                "pattern": null,
+                "length": 48,
+                "width": 26,
+                "topPin": 0, 
+                "bottomPin": 0,
+                "offset": -15
+            }
+        }
+    },
+    {
+        "id": 4,
+        "preview_image": "/assets/img/robots/hair/preview@1x.png",
+        "stance": {
+            "width": 120,
+            "height": 95
+        },
+        "hips": {
+            "x": 300,
+            "y": 410,
+            "xOffset": 55,
+            "yOffset": 30
+        },
+        "head": {
+            "image": "/assets/img/robots/hair/head.png",
+            "pattern": null,
+            "diameter": 50,
+            "width": 93,
+            "height": 80,
+            "topPin": -40, 
+            "bottomPin": 0,
+            "yOffset": -10
+        },
+        "neck": {
+            "image": "/assets/img/robots/hair/neck.png",
+            "pattern": null,
+            "length": 53,
+            "width": 28,
+            "xOffset": 0,
+            "yOffset": 0,
+            "topPin": 10, 
+            "bottomPin": 40
+        },
+        "shoulders": {
+            "xOffset": 35,
+            "yOffset": 0,
+            "width": 141
+        },
+        "arms": {
+            "upperLength": 50,
+            "lowerLength": 50,
+            "leftUpperArm": {
+                "image": "/assets/img/robots/hair/upper-arm.png",
+                "pattern": null,
+                "length": 91,
+                "width": 36,
+                "topPin": 18, 
+                "bottomPin": 10
+            },
+            "leftForearm": {
+                "image": "/assets/img/robots/hair/lower-arm.png",
+                "pattern": null,
+                "length": 109,
+                "width": 38,
+                "topPin": 10, 
+                "bottomPin": 10
+            },
+            "rightUpperArm": {
+                "image": "/assets/img/robots/hair/upper-arm.png",
+                "pattern": null,
+                "length": 91,
+                "width": 36,
+                "topPin": 18, 
+                "bottomPin": 10
+            },
+            "rightForearm": {
+                "image": "/assets/img/robots/hair/lower-arm.png",
+                "pattern": null,
+                "length": 109,
+                "width": 38,
+                "topPin": 10, 
+                "bottomPin": 10
+            }
+        },
+        "spine": {
+            "image": "/assets/img/robots/hair/body.png",
+            "pattern": null,
+            "length": 141,
+            "width": 70,
+            "topPin": 10, 
+            "bottomPin": 0
+        },
+        "legs": {
+            "left": {
+                "upperLeg": {
+                    "image": "/assets/img/robots/hair/upper-leg.png",
+                    "pattern": null,
+                    "length": 79,
+                    "width": 26,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                },
+                "lowerLeg": {
+                    "image": "/assets/img/robots/hair/lower-leg.png",
+                    "pattern": null,
+                    "length": 79,
+                    "width": 26,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                }
+            },
+            "right": {
+                "upperLeg": {
+                    "image": "/assets/img/robots/hair/upper-leg.png",
+                    "pattern": null,
+                    "length": 79,
+                    "width": 26,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                },
+                "lowerLeg": {
+                    "image": "/assets/img/robots/hair/lower-leg.png",
+                    "pattern": null,
+                    "length": 79,
+                    "width": 26,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                }
+            }
+        },
+        "feet": {
+            "left": {
+                "image": "/assets/img/robots/hair/left-foot.png",
+                "pattern": null,
+                "length": 42,
+                "width": 26,
+                "topPin": 0, 
+                "bottomPin": 0,
+                "offset": -28
+            },
+            "right": {
+                "image": "/assets/img/robots/hair/right-foot.png",
+                "pattern": null,
+                "length": 42,
+                "width": 26,
+                "topPin": 0, 
+                "bottomPin": 0,
+                "offset": -10
+            }
+        }
+    },
+    {
+        "id": 5,
+        "preview_image": "/assets/img/robots/lightning/preview@1x.png",
+        "stance": {
+            "width": 80,
+            "height": 40
+        },
+        "hips": {
+            "x": 300,
+            "y": 465,
+            "xOffset": 80,
+            "yOffset": 40
+        },
+        "head": {
+            "image": "/assets/img/robots/lightning/head.png",
+            "pattern": null,
+            "diameter": 50,
+            "width": 50,
+            "height": 80,
+            "topPin": -40, 
+            "bottomPin": 0,
+            "yOffset": -10
+        },
+        "neck": {
+            "image": "/assets/img/robots/lightning/neck.png",
+            "pattern": null,
+            "length": 48,
+            "width": 18,
+            "xOffset": 0,
+            "yOffset": 0,
+            "topPin": 10, 
+            "bottomPin": 40
+        },
+        "shoulders": {
+            "xOffset": 35,
+            "yOffset": 0,
+            "width": 200
+        },
+        "arms": {
+            "upperLength": 50,
+            "lowerLength": 50,
+            "leftUpperArm": {
+                "image": "/assets/img/robots/lightning/upper-arm.png",
+                "pattern": null,
+                "length": 106,
+                "width": 40,
+                "topPin": 18, 
+                "bottomPin": 10
+            },
+            "leftForearm": {
+                "image": "/assets/img/robots/lightning/lower-arm.png",
+                "pattern": null,
+                "length": 76,
+                "width": 26,
+                "topPin": 10, 
+                "bottomPin": 10
+            },
+            "rightUpperArm": {
+                "image": "/assets/img/robots/lightning/upper-arm.png",
+                "pattern": null,
+                "length": 106,
+                "width": 40,
+                "topPin": 18, 
+                "bottomPin": 10
+            },
+            "rightForearm": {
+                "image": "/assets/img/robots/lightning/lower-arm.png",
+                "pattern": null,
+                "length": 76,
+                "width": 26,
+                "topPin": 10, 
+                "bottomPin": 10
+            }
+        },
+        "spine": {
+            "image": "/assets/img/robots/lightning/body.png",
+            "pattern": null,
+            "length": 151,
+            "width": 184,
+            "topPin": 10, 
+            "bottomPin": 0
+        },
+        "legs": {
+            "left": {
+                "upperLeg": {
+                    "image": "/assets/img/robots/lightning/upper-leg.png",
+                    "pattern": null,
+                    "length": 60,
+                    "width": 38,
+                    "topPin": 0, 
+                    "bottomPin": 20
+                },
+                "lowerLeg": {
+                    "image": "/assets/img/robots/lightning/lower-leg.png",
+                    "pattern": null,
+                    "length": 36,
+                    "width": 38,
+                    "topPin": 5, 
+                    "bottomPin": 10
+                }
+            },
+            "right": {
+                "upperLeg": {
+                    "image": "/assets/img/robots/lightning/upper-leg.png",
+                    "pattern": null,
+                    "length": 60,
+                    "width": 38,
+                    "topPin": 0, 
+                    "bottomPin": 20
+                },
+                "lowerLeg": {
+                    "image": "/assets/img/robots/lightning/lower-leg.png",
+                    "pattern": null,
+                    "length": 36,
+                    "width": 38,
+                    "topPin": 5, 
+                    "bottomPin": 10
+                }
+            }
+        },
+        "feet": {
+            "left": {
+                "image": "/assets/img/robots/lightning/left-foot.png",
+                "pattern": null,
+                "length": 56,
+                "width": 38,
+                "topPin": 0, 
+                "bottomPin": 0,
+                "offset": -38
+            },
+            "right": {
+                "image": "/assets/img/robots/lightning/right-foot.png",
+                "pattern": null,
+                "length": 56,
+                "width": 38,
+                "topPin": 0, 
+                "bottomPin": 0,
+                "offset": -20
+            }
+        }
+    },
+    {
+        "id": 6,
+        "preview_image": "/assets/img/robots/royal/preview@1x.png",
+        "stance": {
+            "width": 100,
+            "height": 90
+        },
+        "hips": {
+            "x": 300,
+            "y": 425,
+            "xOffset": 28,
+            "yOffset": 30
+        },
+        "head": {
+            "image": "/assets/img/robots/royal/head.png",
+            "pattern": null,
+            "diameter": 50,
+            "width": 72,
+            "height": 72,
+            "topPin": -10, 
+            "bottomPin": 0,
+            "yOffset": -10
+        },
+        "neck": {
+            "image": "/assets/img/robots/royal/neck.png",
+            "pattern": null,
+            "length": 67,
+            "width": 18,
+            "xOffset": 0,
+            "yOffset": 0,
+            "topPin": -10, 
+            "bottomPin": 0
+        },
+        "shoulders": {
+            "xOffset": 5,
+            "yOffset": -8,
+            "width": 90
+        },
+        "arms": {
+            "upperLength": 50,
+            "lowerLength": 50,
+            "leftUpperArm": {
+                "image": "/assets/img/robots/royal/upper-arm.png",
+                "pattern": null,
+                "length": 86,
+                "width": 28,
+                "topPin": 18, 
+                "bottomPin": 10
+            },
+            "leftForearm": {
+                "image": "/assets/img/robots/royal/lower-arm.png",
+                "pattern": null,
+                "length": 124,
+                "width": 35,
+                "topPin": 10, 
+                "bottomPin": 10
+            },
+            "rightUpperArm": {
+                "image": "/assets/img/robots/royal/upper-arm.png",
+                "pattern": null,
+                "length": 86,
+                "width": 28,
+                "topPin": 18, 
+                "bottomPin": 10
+            },
+            "rightForearm": {
+                "image": "/assets/img/robots/royal/lower-arm.png",
+                "pattern": null,
+                "length": 124,
+                "width": 35,
+                "topPin": 10, 
+                "bottomPin": 10
+            }
+        },
+        "spine": {
+            "image": "/assets/img/robots/royal/body.png",
+            "pattern": null,
+            "length": 158,
+            "width": 86,
+            "topPin": 20, 
+            "bottomPin": 0
+        },
+        "legs": {
+            "left": {
+                "upperLeg": {
+                    "image": "/assets/img/robots/royal/upper-leg.png",
+                    "pattern": null,
+                    "length": 54,
+                    "width": 22,
+                    "topPin": 0, 
+                    "bottomPin": 20
+                },
+                "lowerLeg": {
+                    "image": "/assets/img/robots/royal/lower-leg.png",
+                    "pattern": null,
+                    "length": 108,
+                    "width": 30,
+                    "topPin": 5, 
+                    "bottomPin": 10
+                }
+            },
+            "right": {
+                "upperLeg": {
+                    "image": "/assets/img/robots/royal/upper-leg.png",
+                    "pattern": null,
+                    "length": 54,
+                    "width": 22,
+                    "topPin": 0, 
+                    "bottomPin": 20
+                },
+                "lowerLeg": {
+                    "image": "/assets/img/robots/royal/lower-leg.png",
+                    "pattern": null,
+                    "length": 108,
+                    "width": 30,
+                    "topPin": 5, 
+                    "bottomPin": 10
+                }
+            }
+        },
+        "feet": {
+            "left": {
+                "image": "/assets/img/robots/royal/left-foot.png",
+                "pattern": null,
+                "length": 46,
+                "width": 24,
+                "topPin": 0, 
+                "bottomPin": 0,
+                "offset": -32
+            },
+            "right": {
+                "image": "/assets/img/robots/royal/right-foot.png",
+                "pattern": null,
+                "length": 46,
+                "width": 24,
+                "topPin": 0, 
+                "bottomPin": 0,
+                "offset": -15
+            }
+        }
+    },
+    {
+        "id": 7,
+        "preview_image": "/assets/img/robots/spikey/preview@1x.png",
+        "stance": {
+            "width": 120,
+            "height": 150
+        },
+        "hips": {
+            "x": 300,
+            "y": 365,
+            "xOffset": 5,
+            "yOffset": 25
+        },
+        "head": {
+            "image": "/assets/img/robots/spikey/head.png",
+            "pattern": null,
+            "diameter": 50,
+            "width": 114,
+            "height": 90,
+            "topPin": -10, 
+            "bottomPin": 0,
+            "yOffset": -10
+        },
+        "neck": {
+            "image": "/assets/img/robots/spikey/neck.png",
+            "pattern": null,
+            "length": 52,
+            "width": 22,
+            "xOffset": 0,
+            "yOffset": 0,
+            "topPin": 10, 
+            "bottomPin": 30
+        },
+        "shoulders": {
+            "xOffset": 10,
+            "yOffset": 10,
+            "width": 70
+        },
+        "arms": {
+            "upperLength": 50,
+            "lowerLength": 50,
+            "leftUpperArm": {
+                "image": "/assets/img/robots/spikey/upper-arm.png",
+                "pattern": null,
+                "length": 96,
+                "width": 30,
+                "topPin": 15, 
+                "bottomPin": 10
+            },
+            "leftForearm": {
+                "image": "/assets/img/robots/spikey/lower-arm.png",
+                "pattern": null,
+                "length": 148,
+                "width": 32,
+                "topPin": 10, 
+                "bottomPin": 10
+            },
+            "rightUpperArm": {
+                "image": "/assets/img/robots/spikey/upper-arm.png",
+                "pattern": null,
+                "length": 96,
+                "width": 30,
+                "topPin": 15, 
+                "bottomPin": 10
+            },
+            "rightForearm": {
+                "image": "/assets/img/robots/spikey/lower-arm.png",
+                "pattern": null,
+                "length": 148,
+                "width": 32,
+                "topPin": 10, 
+                "bottomPin": 10
+            }
+        },
+        "spine": {
+            "image": "/assets/img/robots/spikey/body.png",
+            "pattern": null,
+            "length": 160,
+            "width": 110,
+            "topPin": 0, 
+            "bottomPin": 0
+        },
+        "legs": {
+            "left": {
+                "upperLeg": {
+                    "image": "/assets/img/robots/spikey/upper-leg.png",
+                    "pattern": null,
+                    "length": 104,
+                    "width": 20,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                },
+                "lowerLeg": {
+                    "image": "/assets/img/robots/spikey/lower-leg.png",
+                    "pattern": null,
+                    "length": 104,
+                    "width": 32,
+                    "topPin": -5, 
+                    "bottomPin": 10
+                }
+            },
+            "right": {
+                "upperLeg": {
+                    "image": "/assets/img/robots/spikey/upper-leg.png",
+                    "pattern": null,
+                    "length": 104,
+                    "width": 20,
+                    "topPin": 0, 
+                    "bottomPin": 10
+                },
+                "lowerLeg": {
+                    "image": "/assets/img/robots/spikey/lower-leg.png",
+                    "pattern": null,
+                    "length": 104,
+                    "width": 32,
+                    "topPin": -5, 
+                    "bottomPin": 10
+                }
+            }
+        },
+        "feet": {
+            "left": {
+                "image": "/assets/img/robots/spikey/left-foot.png",
+                "pattern": null,
+                "length": 34,
+                "width": 20,
+                "topPin": 0, 
+                "bottomPin": 0,
+                "offset": -25
+            },
+            "right": {
+                "image": "/assets/img/robots/spikey/right-foot.png",
+                "pattern": null,
+                "length": 34,
+                "width": 20,
+                "topPin": 0, 
+                "bottomPin": 0,
+                "offset": -8
+            }
+        }
+
+    }
+]  

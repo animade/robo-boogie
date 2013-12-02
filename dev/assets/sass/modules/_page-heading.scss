@@ -1,0 +1,19 @@
+// ==========================================================================
+//
+// Page heading
+//
+//
+
+.page-heading {
+    text-align: center;
+
+}
+
+.page-heading--title {
+     @include uppercase;
+     
+    
+}
+.page-heading--content {
+
+}

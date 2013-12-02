@@ -1,0 +1,60 @@
+// ==========================================================================
+//
+// Slider side of the editor slidersl
+//
+//
+
+
+%sliders--group {
+    float: left;
+    width:48%;
+    margin-bottom: 1em;
+    background:#fff;
+}
+
+.sliders--group--left {
+    @extend %sliders--group;
+    @include clearfix;
+    float: left;
+}
+
+.sliders--group--right {
+    @extend %sliders--group;
+    @include clearfix;
+    float: right;
+}
+
+.sliders--group--full {
+    @extend %sliders--group;
+    float: none;
+    width:100%;
+    @include clearfix;
+
+    // Make the range sliders fill half of the full-width groups (head and neck)
+    .sliders__range-field {
+        float: left;
+        width:50%;
+
+        &:nth-child(3) {
+            float: right;
+        }
+    }
+}
+
+.sliders--group--heading {
+    @include clearfix;
+    @include uppercase;
+    font-weight: normal;
+    // border-bottom: 1px solid #ddd;
+    background:#fff;
+    color:$ui-secondary;
+    padding:0.5em 1em 0.25em 1.1em;
+    font-size: 0.85em;
+    margin:0;
+}
+
+.sliders__range-field {
+    width:100%;
+    padding:0 1em;
+    margin:0.5em 0 1em;
+}
