@@ -33,6 +33,16 @@ The dev folder can then be complied and minified into to the `/build/` folder us
 
 Details of what happens during this task can be found in `Gruntfile.js`. 
 
+### Sound
+
+Sound files can be placed into:
+
+    /dev/assets/music/loops/
+
+Then added to the JSON file 
+
+    /dev/assets/data/soundtracks.json
+
 ### Backend API
 
 Firstly you'll need to set up a local testing domain (e.g. http://codeclub.dev) and point it to `/dev/api/`. We use [VirtualhostX](https://clickontyler.com/virtualhostx/) for this kind of thing and can heartily recommend it. 
